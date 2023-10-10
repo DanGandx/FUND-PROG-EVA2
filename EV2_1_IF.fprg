@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 06:24:02 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAwOzIwMjMtMTAtMDk7MDY6MDc6MzEgcC4gbS47MjgyNg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAwOzIwMjMtMTAtMDk7MDY6MjQ6MDIgcC4gbS47MTsyOTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tu calificaci&#243;n.&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobado: viaje a Tlaxcala&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No Acr&#233;ditadp: A repetir la materia&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Fin del programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
