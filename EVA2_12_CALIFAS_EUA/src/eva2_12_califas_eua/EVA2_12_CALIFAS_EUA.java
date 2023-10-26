@@ -25,15 +25,15 @@ public class EVA2_12_CALIFAS_EUA {
           
            if((califa >= 0) && (califa <= 100)) {
             System.out.println("La calificación " + califa + " es válida");
-             if((califa >= 90) && (califa <= 100))
+            else if((califa >= 90) && (califa <= 100))
                 System.out.println("Sacaste una A");
-             if((califa >= 80) && (califa <= 89))
+             else if((califa >= 80) && (califa <= 89))
                 System.out.println("Sacaste una B");
-             if((califa >= 70) && (califa <= 79))
+             else if((califa >= 70) && (califa <= 79))
                 System.out.println("Sacaste una C");
-             if((califa >= 60) && (califa <= 69))
+             else if((califa >= 60) && (califa <= 69))
                 System.out.println("Sacaste una D");
-             if((califa >= 0) && (califa <= 60))
+             else if((califa >= 0) && (califa <= 60))
                 System.out.println("Sacaste una F");
                }else
             System.out.println("La calificación " + califa + " No es válida");
