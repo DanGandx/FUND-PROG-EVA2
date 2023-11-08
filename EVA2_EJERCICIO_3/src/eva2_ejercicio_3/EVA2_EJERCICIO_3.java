@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package eva2_ejercicio_3;
 
@@ -9,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author invitado
+ * @author Dell
  */
 public class EVA2_EJERCICIO_3 {
 
@@ -19,19 +18,18 @@ public class EVA2_EJERCICIO_3 {
     public static void main(String[] args) {
         // TODO code application logic here
           Scanner input = new Scanner(System.in);
-        int num, sum;
-        
-         System.out.println("Introduce un número:");
+        int num;
+         System.out.println("Introduce un numero:");
             num = input.nextInt();
             
-           sum = num;
+          int factorial = 0;
         
          for (int i = 1; i <= num; i++) {
             System.out.print(i + " + ");
-             sum = sum + i;
+             factorial = factorial + i;
                     
                     }
-         System.out.println(" = " + sum);
+         System.out.println(" = " + factorial);
     }
     
 }
