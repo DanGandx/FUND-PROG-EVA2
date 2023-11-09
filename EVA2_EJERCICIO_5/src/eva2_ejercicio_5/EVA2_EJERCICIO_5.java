@@ -25,6 +25,8 @@ public class EVA2_EJERCICIO_5 {
         
         while (bas < 0){
             System.out.println("LA BASE DEBE SER UN NUMERO POSITIVO");
+            System.out.println("Introduce nuevo valor:");
+            bas = input.nextInt();
         }
                 
         System.out.println("Introduce el valor del exponente");
@@ -32,6 +34,7 @@ public class EVA2_EJERCICIO_5 {
         
         while (exp < 0){
             System.out.println("EL EXPONENTE DEBE SER UN NUMERO POSITIVO");
+            return;
         }
         
         int resultado = 1;
