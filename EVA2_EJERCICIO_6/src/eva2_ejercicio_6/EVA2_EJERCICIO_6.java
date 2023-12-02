@@ -17,7 +17,7 @@ public class EVA2_EJERCICIO_6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int num, bin;
+        int num, apoy=0, bin=0, resi;
         Scanner input = new Scanner(System.in);
         System.out.println("Introduce el numero que quieres convertir a binario");
         num = input.nextInt();
