@@ -22,10 +22,13 @@ public class EVA2_EJERCICIO_6 {
         System.out.println("Introduce el numero que quieres convertir a binario");
         num = input.nextInt();
         System.out.print("El resultado es = ");
-        for (int i = 0; i < num; i++) {
-            bin = i % 2;
-         System.out.print(bin);
-        }
+        while (num != 0) {
+           resi = (num%2);
+           bin += resi*Math.pow(10, apoy);
+           apoy++;
+           num/=2;
+       }
+        System.out.println(bin);
         
     }
     
