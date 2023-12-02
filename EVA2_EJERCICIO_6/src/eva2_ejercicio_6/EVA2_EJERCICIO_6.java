@@ -19,7 +19,7 @@ public class EVA2_EJERCICIO_6 {
         // TODO code application logic here
         int num, bin;
         Scanner input = new Scanner(System.in);
-        System.out.println("Introduce el numero que quieres convertir a decimal");
+        System.out.println("Introduce el numero que quieres convertir a binario");
         num = input.nextInt();
         System.out.print("El resultado es = ");
         for (int i = 0; i < num; i++) {
